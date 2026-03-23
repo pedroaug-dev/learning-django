@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 def home(request):
-    return HttpResponse('project home')
+    return render(request, 'recipes/home.html')
 
 def about(request):
     return HttpResponse('project about')
