@@ -264,11 +264,11 @@ h6 {
 
 .main-content-detail .recipe-list-item:hover {
     transform: scale(1);
-    box-shadow: -8px 8px 18px rgba(0, 0, 0, .2);
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, .2);
 }
 
 .main-content-detail .recipe-cover {
-    height: 290px;
+    max-height: 290px;
     overflow: hidden;
 }
 
