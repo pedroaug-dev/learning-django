@@ -172,7 +172,7 @@ h6 {
 }
 
 .main-content-list .recipe-cover {
-    height: 240px;
+    height: 24rem;
     overflow: hidden;
 }
 
@@ -195,6 +195,11 @@ h6 {
 .recipe-title-container {
     padding: var(--spacing-gutter-medium);
     padding-bottom: 2rem;
+}
+
+.recipe-title-container a {
+    text-decoration: none;
+    color: var(--color-primary-dark);
 }
 
 .recipe-author {
@@ -269,7 +274,7 @@ h6 {
 }
 
 .main-content-detail .recipe-cover {
-    max-height: 290px;
+    max-height: 29rem;
     overflow: hidden;
 }
 
@@ -360,6 +365,10 @@ h6 {
 
 .newsletter button:hover {
     background: #ea580c;
+}
+
+.preparation-steps {
+    padding: var(--spacing-gutter-medium);
 }
 
 .footer-social {
