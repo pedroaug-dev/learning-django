@@ -165,13 +165,13 @@ h6 {
     transition: all 300ms ease-in-out;
     border-radius: .4rem;
     overflow: hidden;
-
-    display: flex;
-    flex-direction: column;
 }
 
+.recipe img {
+  max-width: 100%;
+}
 
-.recipe-cover {
+.main-content-list .recipe-cover {
     height: 240px;
     overflow: hidden;
 }
@@ -183,7 +183,7 @@ h6 {
 }
 
 .recipe-list-item {
-    width: 100%;
+  max-width: 64rem;
 }
 
 .recipe-list-item:hover {
@@ -255,6 +255,21 @@ h6 {
 
 .recipe-footer a:hover {
     filter: brightness(2);
+}
+
+.main-content-detail .recipe-list-item {
+  max-width: 84rem;
+  margin: 0 auto;
+}
+
+.main-content-detail .recipe-list-item:hover {
+    transform: scale(1);
+    box-shadow: -8px 8px 18px rgba(0, 0, 0, .2);
+}
+
+.main-content-detail .recipe-cover {
+    height: 290px;
+    overflow: hidden;
 }
 
 .footer {
